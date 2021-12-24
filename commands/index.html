@@ -50,7 +50,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent="">
   
     
     
@@ -158,7 +158,9 @@
                     
 
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href=".." title="A6T Help" class="md-nav__button md-logo" aria-label="A6T Help" data-md-component="logo">
       
@@ -200,12 +202,128 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
-        
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Commandes
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         Commandes
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#fun" class="md-nav__link">
+    Fun 🎉
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#utilitaire" class="md-nav__link">
+    Utilitaire 🌌
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#astrocoin-badges" class="md-nav__link">
+    Astrocoin &amp; Badges 🪙
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mathematique" class="md-nav__link">
+    Mathématique 🧮
+  </a>
+  
+    <nav class="md-nav" aria-label="Mathématique 🧮">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#basique" class="md-nav__link">
+    Basique
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trigonometrie" class="md-nav__link">
+    Trigonométrie
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#suites" class="md-nav__link">
+    Suites
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fonctions" class="md-nav__link">
+    Fonctions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#constantes" class="md-nav__link">
+    Constantes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#texte" class="md-nav__link">
+    Texte 📖
+  </a>
+  
+    <nav class="md-nav" aria-label="Texte 📖">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#traitement" class="md-nav__link">
+    Traitement
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#police" class="md-nav__link">
+    Police
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -233,44 +351,28 @@
               </div>
             
             
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
               
                 
 
-<h1 id="fun">🎉Fun</h1>
+  <h1>Commandes</h1>
+
+<h2 id="fun">Fun 🎉</h2>
 <p><em>Ensemble de commandes destinées à détendre l'atmosphère.</em></p>
 <ul>
 <li><code>!!joke</code> - Raconte une blague aléatoire dans le salon courant.</li>
 <li><code>!!newword</code> - Génère un mot absent du dictionnaire qui semble français.</li>
 </ul>
-<h1 id="utilitaire">🌌 Utilitaire</h1>
+<h2 id="utilitaire">Utilitaire 🌌</h2>
 <p><em>Commandes facilitant le bon fonctionnement d'A6T.</em></p>
 <ul>
 <li><code>!!help</code> - Envoie le lien de cette page internet.</li>
-<li><code>!!propose (proposition)</code> - Permet de suggérer une idée dans le salon <strong>#💡propositions</strong>.</li>
+<li><code>!!propose (proposition)</code> - Permet de suggérer une idée dans le salon <code>#💡propositions</code>.</li>
 </ul>
-<h1 id="astrocoin-badges"><img alt="astro" src="../img/astro.png" /> Astrocoin &amp; Badges</h1>
-<p><em>Fonctionnalités économiques et de collection de badges</em></p>
+<h2 id="astrocoin-badges">Astrocoin &amp; Badges 🪙</h2>
+<p><em>Fonctionnalités économiques et de collection de badges.</em></p>
 <ul>
 <li><code>!!profil [@mention]</code> - Affiche le solde et les badges d'une personne ou à défaut celui de la personne qui exécute la commande.</li>
 <li><code>!!give (@mention) (n)</code> - Transfert <strong>n</strong> de vos astrocoins à la personne mentionnée.</li>
@@ -288,6 +390,209 @@
 <p class="admonition-title">Info</p>
 <p>De nouveaux badges sont régulièrement ajoutés, pensez à consulter la liste régulièrement.</p>
 </div>
+<h2 id="mathematique">Mathématique 🧮</h2>
+<p><em>Quoi de plus efficace qu'un robot pour calculer ?</em></p>
+<div class="admonition fail">
+<p class="admonition-title">Limitations</p>
+<p>Le calcul et le résultat doivent faire moins de 100 caractères.</p>
+<p>Les résultats peuvent être approximatifs lors de l'utilisation de nombre décimaux en raison de la représentation de ces derniers en binaire.</p>
+<p>Certaines commandes nécessitent des conditions sur les arguments, si vous obtenez une erreur référez vous à la définition mathématique. Il est par exemple impossible d'effectuer <code>!!div 5 0</code> puisque cela revient à faire une division par 0.</p>
+</div>
+<h3 id="basique">Basique</h3>
+<ul>
+<li><code>!!adi (a) (b)</code> - Effectue l'<a href="https://fr.wikipedia.org/wiki/Addition">addition</a> entre <strong>a</strong> et <strong>b</strong>.</li>
+<li><code>!!sou (a) (b)</code> - Effectue la <a href="https://fr.wikipedia.org/wiki/Soustraction">soustraction</a> de <strong>a</strong> par <strong>b</strong>.</li>
+<li><code>!!mul (a) (b)</code> - Effectue la <a href="https://fr.wikipedia.org/wiki/Multiplication">multiplication</a> de <strong>a</strong> par <strong>b</strong>.</li>
+<li><code>!!pui (a) (b)</code> - Retourne le résultat de <strong>a</strong> <a href="https://fr.wikipedia.org/wiki/Puissance_d%27un_nombre">puissance</a> <strong>b</strong></li>
+<li><code>!!div (a) (b)</code> - Effectue la <a href="https://fr.wikipedia.org/wiki/Division">division</a> de <strong>a</strong> par <strong>b</strong>.</li>
+<li><code>!!dive (a) (b)</code> - Effectue le quotien de la <a href="https://fr.wikipedia.org/wiki/Division_euclidienne">division entière</a> de <strong>a</strong> et <strong>b</strong>.</li>
+<li><code>!!mod (a) (b)</code> - Retourne le reste de la <a href="https://fr.wikipedia.org/wiki/Division_euclidienne">division euclidienne</a> de <strong>a</strong> par <strong>b</strong>.</li>
+<li><code>!!sqrt (n)</code> - Retourne la <a href="https://fr.wikipedia.org/wiki/Racine_carr%C3%A9e">racine carrée</a> de <strong>n</strong>.</li>
+<li><code>!!fact (n)</code> - Retourne la <a href="https://fr.wikipedia.org/wiki/Factorielle">factorielle</a> de <strong>n</strong>. </li>
+</ul>
+<h3 id="trigonometrie">Trigonométrie</h3>
+<ul>
+<li><code>!!cos (a)</code> - Retourne une valeur approchée du <a href="https://fr.wikipedia.org/wiki/Cosinus">cosinus</a> de <strong>a</strong>.</li>
+<li><code>!!sin (a)</code> - Retourne une valeur approchée du <a href="https://fr.wikipedia.org/wiki/Sinus_(math%C3%A9matiques)">sinus</a> de <strong>a</strong>.</li>
+<li><code>!!tan (a)</code> - Retourne une valeur approchée de la <a href="https://fr.wikipedia.org/wiki/Tangente_(trigonom%C3%A9trie)">tangente</a> de <strong>a</strong>.</li>
+</ul>
+<h3 id="suites">Suites</h3>
+<ul>
+<li><code>!!fibo (n)</code> - Retourne le <strong>n</strong>-eme terme de la <a href="https://fr.wikipedia.org/wiki/Suite_de_Fibonacci">suite de Fibonacci</a>.</li>
+<li><code>!!conw (n)</code> - Retourne le <strong>n</strong>-eme terme de la <a href="https://fr.wikipedia.org/wiki/Suite_de_Conway">suite de Conway</a>.</li>
+<li><code>!!syra (n)</code> - Retourne la <a href="https://fr.wikipedia.org/wiki/Conjecture_de_Syracuse">suite de Syracuse</a> du nombre <strong>n</strong>.</li>
+</ul>
+<h3 id="fonctions">Fonctions</h3>
+<ul>
+<li><code>!!log (a) (b)</code> - Retourne une valeur approchée du <a href="https://fr.wikipedia.org/wiki/Logarithme">logarithme</a> de <strong>a</strong> en base <strong>b</strong>.</li>
+<li><code>!!exp (a)</code> - Retourne une valeur approchée de l'<a href="https://fr.wikipedia.org/wiki/Fonction_exponentielle">exponentielle</a> de <strong>a</strong>.</li>
+<li><code>!!pgcd (a) (b)</code> - Retourne le <a href="https://fr.wikipedia.org/wiki/Plus_grand_commun_diviseur">plus grand diviseur commun</a> à <strong>a</strong> et <strong>b</strong>.</li>
+<li><code>!!kpn (k) (n)</code> - Retourne le résultat de <strong>k</strong> <a href="https://fr.wikipedia.org/wiki/Coefficient_binomial">parmi</a> <strong>n</strong>.</li>
+</ul>
+<h3 id="constantes"><a href="https://www.youtube.com/watch?v=KlYYqgWYlZs">Constantes</a></h3>
+<ul>
+<li><code>!!pi</code> - Retourne une valeur approchée de <a href="https://fr.wikipedia.org/wiki/Pi">π</a>, la constante d'Archimède.</li>
+<li><code>!!e</code> - Retourne une valeur approchée de <a href="https://fr.wikipedia.org/wiki/E_(nombre)">e</a>, le nombre d'Euler ou constante de Néper.</li>
+<li><code>!!phi</code> - Retourne une valeur approchée de <a href="https://fr.wikipedia.org/wiki/Nombre_d%27or">φ</a>, le nombre d'or.</li>
+</ul>
+<h2 id="texte">Texte 📖</h2>
+<p><em>Modifie du texte, rarement utilie mais a le mérite d'être là.</em></p>
+<div class="admonition warning">
+<p class="admonition-title">Attention</p>
+<p>Il est interdit de communiquer sur A6T avec ces textes modifiés en dehors du salon <code>#🎉fun</code>.
+De même, leurs utilisations dans vos pseudos est à prohiber.</p>
+</div>
+<h3 id="traitement">Traitement</h3>
+<ul>
+<li><code>!!treverse (texte)</code> - Inverse l'ordre de chaque caractère du texte, le premier devient le dernier et ainsi de suite.</li>
+<li><code>!!tpoyo (texte)</code> - Traduit le texte dans la langue de la fameuse boule rose.</li>
+</ul>
+<h3 id="police">Police</h3>
+<div class="admonition fail">
+<p class="admonition-title">Limitations</p>
+<p>Le texte doit faire moins de 200 caractères.</p>
+<p>Les caractères accentués et spéciaux tel que le <strong>ç</strong> ne sont pas pris en charge.</p>
+<p>Certaines polices ne prennent pas en charge les chiffres.</p>
+</div>
+<ul>
+<li><code>!!tfont (police) (texte)</code> - Convertit le texte avec la police choisie.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Police</th>
+<th>Description</th>
+<th>Aperçu</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>bold</code></td>
+<td>Gras</td>
+<td>𝐏𝐚𝐫𝐜𝐞 𝐪𝐮𝐞 𝐥𝐚 𝐬𝐜𝐢𝐞𝐧𝐜𝐞</td>
+</tr>
+<tr>
+<td><code>sfbold</code></td>
+<td>Gras sans empattements</td>
+<td>𝗣𝗮𝗿𝗰𝗲 𝗾𝘂𝗲 𝗹𝗮 𝘀𝗰𝗶𝗲𝗻𝗰𝗲</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>boldialic</code></td>
+<td>Italique et gras</td>
+<td>𝑷𝒂𝒓𝒄𝒆 𝒒𝒖𝒆 𝒍𝒂 𝒔𝒄𝒊𝒆𝒏𝒄𝒆</td>
+</tr>
+<tr>
+<td><code>sfitalic</code></td>
+<td>Italique sans empattements</td>
+<td>𝘗𝘢𝘳𝘤𝘦 𝘲𝘶𝘦 𝘭𝘢 𝘴𝘤𝘪𝘦𝘯𝘤𝘦</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>sfbolditalic</code></td>
+<td>Gras Italique et sans empattements</td>
+<td>𝙋𝙖𝙧𝙘𝙚 𝙦𝙪𝙚 𝙡𝙖 𝙨𝙘𝙞𝙚𝙣𝙘𝙚</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>smallcaps</code></td>
+<td>Petite majuscule</td>
+<td>ᴩᴀʀᴄᴇ qᴜᴇ ʟᴀ ꜱᴄɪᴇɴᴄᴇ</td>
+</tr>
+<tr>
+<td><code>struck</code></td>
+<td>Frappé</td>
+<td>ℙ𝕒𝕣𝕔𝕖 𝕢𝕦𝕖 𝕝𝕒 𝕤𝕔𝕚𝕖𝕟𝕔𝕖</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>gothic</code></td>
+<td>Gothique</td>
+<td>𝔓𝔞𝔯𝔠𝔢 𝔮𝔲𝔢 𝔩𝔞 𝔰𝔠𝔦𝔢𝔫𝔠𝔢</td>
+</tr>
+<tr>
+<td><code>stgothic</code></td>
+<td>Gothique Gras</td>
+<td>𝕻𝖆𝖗𝖈𝖊 𝖖𝖚𝖊 𝖑𝖆 𝖘𝖈𝖎𝖊𝖓𝖈𝖊</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>bbox</code></td>
+<td>Dans des boites noires</td>
+<td>🅿🅰🆁🅲🅴 🆀🆄🅴 🅻🅰 🆂🅲🅸🅴🅽🅲🅴</td>
+</tr>
+<tr>
+<td><code>wbox</code></td>
+<td>Dans des boites blanches</td>
+<td>🄿🄰🅁🄲🄴 🅀🅄🄴 🄻🄰 🅂🄲🄸🄴🄽🄲🄴</td>
+</tr>
+<tr>
+<td><code>bcircle</code></td>
+<td>Dans des cercles noirs</td>
+<td>🅟🅐🅡🅒🅔 🅠🅤🅔 🅛🅐 🅢🅒🅘🅔🅝🅒🅔</td>
+</tr>
+<tr>
+<td><code>wcircle</code></td>
+<td>Dans des cercles blancs</td>
+<td>Ⓟⓐⓡⓒⓔ ⓠⓤⓔ ⓛⓐ ⓢⓒⓘⓔⓝⓒⓔ</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><code>updown</code></td>
+<td>Retourné</td>
+<td>Ԁɐɹɔǝ bnǝ lɐ sɔıǝuɔǝ</td>
+</tr>
+<tr>
+<td><code>script</code></td>
+<td>Manuscrit</td>
+<td>𝓟𝓪𝓻𝓬𝓮 𝓺𝓾𝓮 𝓵𝓪 𝓼𝓬𝓲𝓮𝓷𝓬𝓮</td>
+</tr>
+<tr>
+<td><code>japan</code></td>
+<td>Faux japonais</td>
+<td>卩卂尺匚乇 Ɋㄩ乇 ㄥ卂 丂匚丨乇几匚乇</td>
+</tr>
+<tr>
+<td><code>ethiopian</code></td>
+<td>Faux éthiopien</td>
+<td>የልዪርቿ ዒሁቿ ረል ነርጎቿክርቿ</td>
+</tr>
+<tr>
+<td><code>cross</code></td>
+<td>Barré</td>
+<td>₱₳Ɽ₵Ɇ QɄɆ Ⱡ₳ ₴₵łɆ₦₵Ɇ</td>
+</tr>
+<tr>
+<td><code>glitch</code></td>
+<td>Buggé</td>
+<td>Ꝕaꞧꞓꬲ ꝙuꬲ ꝇa ꞩꞓꭵꬲꝴꞓꬲ</td>
+</tr>
+</tbody>
+</table>
 
               
             </article>
@@ -348,7 +653,7 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.0bbba5b5.min.js"}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["toc.integrate", "navigation.instant", "navigation.tracking"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.0bbba5b5.min.js"}</script>
     
     
       <script src="../assets/javascripts/bundle.e1a181d9.min.js"></script>
